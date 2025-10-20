@@ -64,7 +64,7 @@ def generate_secure_password(length: int = 12) -> str:
     return "".join(password_chars)
 
 
-def generate_unique_username(base: str = "testuser", suffix_length: int = 5) -> str:
+def generate_unique_username(base: str = "testuser", suffix_length: int = 10) -> str:
     """Create a username by appending a random zero-padded numeric suffix."""
 
     max_value = 10 ** suffix_length
