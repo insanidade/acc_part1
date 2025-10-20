@@ -23,15 +23,10 @@ This project is a Python automation toolkit that walks through the DemoQA Book S
    python -m pip install --upgrade pip
    pip install -r requirements.txt
    ```
-4. Create the `.env` file in the project root and populate it with your DemoQA credentials once they are generated.
+4. Environment setup is optional at this stage. If a `.env` file does not exist, the scripts that rely on it will create one automatically when credentials are generated. You can still prepare an empty file up front if preferred.
    ```
-   .env
-   ```
-   ```
-   DEMOQA_USERNAME=
-   DEMOQA_PASSWORD=
-   DEMOQA_USER_ID=
-   DEMOQA_TOKEN=
+   # Optional: create an empty .env file
+   touch .env
    ```
 
 ## Running the Application
