@@ -12,11 +12,11 @@ This project is a Python automation toolkit that walks through the DemoQA Book S
 ### Installation
 1. Clone the repository.
    ```
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/your-username/acc_part1.git
    ```
 2. Navigate into the project directory.
    ```
-   cd your-repo
+   cd acc_part1
    ```
 3. Install the Python dependencies (consider doing this inside a virtual environment).
    ```
