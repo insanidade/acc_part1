@@ -36,6 +36,6 @@ python test_runner.py
 ```
 
 ## Usage (Optional)
-The entry point `test_runner.py` invokes the sequence of scripts that create a user, generate and authorize a token, fetch book data, and rent titles. Inspect intermediate artifacts such as `test_books.json` or rerun individual scripts (for example, `python test_fetch_books.py`) to validate specific steps during development.
+The entry point `test_runner.py` invokes the sequence of scripts that create a user, generate and authorize a token, fetch book data, and rent titles. You can also run individual scripts (for example, `python test_fetch_books.py`) when debugging specific steps—just ensure a populated `.env` file is present, because most scripts load credentials from it.
 
 
